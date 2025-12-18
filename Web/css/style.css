@@ -1,0 +1,50 @@
+/*----------
+This style is meant to reset the page
+-----------*/
+
+body{
+	font-family:Arial,sans-serif;
+	background-color:#DEEBFF;
+	color:#333
+	line-height:1.6;
+}
+/*-----------
+Navigation Bar Styles
+------------*/
+.navbar {
+	background-color:#5397FC;
+	padding:15px
+}
+
+.navbar ul{
+	list-style:none;
+	gap:20px;
+	display:flex;
+}
+.navbar a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+.navbar a:hover {
+	text-decoration:underline;
+}
+
+.container{
+	width:80%;
+	margin:20px auto;
+}
+.section-box{
+	background:#E0F9FF;
+	padding:20px;
+	margin-bottom:20px;
+	border-radius:8px;
+	box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+.profile-img{
+	width:250px;
+	height:230px;
+	border-radius:50%;
+	display:block;
+	margin:10px 0;
+}
